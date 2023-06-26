@@ -1,4 +1,4 @@
-import { IsString, IsBoolean, IsOptional, IsNotEmpty } from "@nestjs/class-validator";
+import { IsString, IsBoolean, IsOptional, IsNotEmpty } from "class-validator";
 
 export /**interface**/ class CreateTaskDto {
     @IsString()
